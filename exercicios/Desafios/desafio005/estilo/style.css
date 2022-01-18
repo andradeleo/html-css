@@ -18,45 +18,51 @@ header > h1 {
     color: white;
     font-family: 'Passion One', cursive;
     font-size: 8.5em;
-    padding-top: 70px;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 
-header > h2 {
-        color: white;
-        
+header > p {
+        color: white;        
 
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 100;
-        font-size: 1em ;       
+        font-size: 1em ;  
+        padding-bottom: 50px;    
 
     }
 
 .link {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
 .link:hover {
     text-decoration: underline;
 }
 
-main {
-    font-size: 3em;
-    max-width: 700px;
-    padding: 95px 20px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(71, 71, 71);
+    color: white;
     
 }
 
-p {
-    font-family: 'Sriracha', cursive;
-
-    margin: auto;
-}
-
-section > p {
-    color: white;
-    background-color: black;
-    padding: 10px 3px;
+.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
 footer {
@@ -81,5 +87,5 @@ footer > p > a:hover {
 }
 
 
-}
+
 
